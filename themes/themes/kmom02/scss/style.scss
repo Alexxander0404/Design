@@ -19,6 +19,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
+
 body {
     background-color: $background-color;
 }
@@ -26,4 +27,26 @@ body {
 * {
     color: $font-color;
 }
-@import '../css/kmom02.css';
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.site-header {
+    display: flex;
+    justify-content: row;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.title {
+    margin-left: 30px;
+}
+.portfolio_image {
+    border-radius: 25%;
+}
+.main h1, .main p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.footer p, .footer .social {
+    margin-left: 30px;
+}
