@@ -1,6 +1,6 @@
 ---
 Title: About
-Description: This is our About page.
+Description: This is my About page.
 ---
 
 Process
