@@ -1,0 +1,47 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'technology';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: $background-color-dark;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98vw;
+}
+
+* {
+    color: $font-color-dark;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.site-header {
+    display: flex;
+    justify-content: row;
+    margin-top: 30px;
+}
+.title {
+    margin-left: 30px;
+}
+.portfolio_image {
+    border-radius: 25%;
+}

@@ -3,10 +3,13 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main" role="main">
-    <div class="subpage">
-        {{ content }}
-    </div>
+    <div class="techgrid" role="main">
+        <div class="sidebar">
+            {{ "techcontent/sidebar"| content }}
+        </div>
+        <div class="subpage">
+            {{ content }}
+        </div>
     </div>
     
     {% include 'incl/footer.twig' %}
